@@ -1,20 +1,27 @@
+// main.dart
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'models/cart_model.dart';
+import 'pages/product_list_page.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => CartModel(),
+      child: const MyApp(),
+    ),
+  );
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      title: 'Shopping Cart',
+      theme: ThemeData(primarySwatch: Colors.blue, useMaterial3: true),
+      home: const ProductListPage(),
     );
   }
 }
