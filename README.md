@@ -63,37 +63,3 @@ setelah menekan clear maka semua produk di keranjang akan hilang dan logo tong s
 <img width="200" height="917" alt="image" src="https://github.com/user-attachments/assets/3ef73928-4c19-4529-bb79-633250b1627e" />
 
 jika menekan tombol continue shoping, akan di arahkan kembali ke menu awal untuk memilih produk. karena tadi isi keranjang sudah di bersihkan maka angk di pojok kanan atas juga ikut hilang.
-
-# Nilai Tambah Modifikasi Kode
-
-## 1. Menambah Search/Filter
-
-<img width="200" height="1094" alt="image" src="https://github.com/user-attachments/assets/ef973dc2-e187-46e9-8ca1-d174c4b88bd1" />
-
-Pada gambar diatas ditambahkan fitur Seaching untuk mencari nama barang dan filtering berdasarkan kategorinya
-
-## 2. Membuat kategori
-
-<img width="200" height="643" alt="image" src="https://github.com/user-attachments/assets/438b7a45-6d71-487e-999e-71f70d94464b" />
-
-Kode diatas membuat kategori untuk produk-produk yang tersedia, contohnya electrionic dan accesoris. nantinya kategori ini dapat membantu dalam proses filtering produk.
-
-## 3. Menambah Checkout Page
-
-<img width="200" height="1072" alt="Cuplikan layar 2026-02-24 114201" src="https://github.com/user-attachments/assets/97a345df-4cea-4a9b-8194-5a5beaa2614b" />
-
-Checkout page muncul ketika sudah memasukan barang ke keranjang dan menekan tombol checkout. pemesan akan diminta isi nama, alamat dan nomor telpon setelah itu menekan tombol place order.
-
-<img width="200" height="1072" alt="image" src="https://github.com/user-attachments/assets/e646ef42-7f99-4a34-bb47-525f5e97db6b" />
-
-setelah menekan tompol place order akan muncul order success yang menandakan transaksi berhasil.
-
-## 4. Menambah Produk
-
-<img width="400" height="643" alt="image" src="https://github.com/user-attachments/assets/86661e6c-46c4-4a9e-ad27-850ae886f28c" />
-
-Kode diatas menambahkan produk yaitu Mic dan juga Keyboard pada file product_list_page.dart
-
-<img width="200" height="901" alt="image" src="https://github.com/user-attachments/assets/aca7a303-ebfd-4bad-8695-1e52c5805fcf" />
-
-Terlihat produk yang ditambahkan sudah muncul pada gambar
